@@ -7,7 +7,10 @@
 }
 
 .logomenu {
-    margin-left: 42px;
+    display: flex;
+    flex-basis: 33%;
+    justify-content: left;
+    margin-left: 45px;
 }
 
 .menu {
@@ -25,14 +28,20 @@
 }
 
 #logo {
+    display: flex;
+    flex-basis: 33%;
     color: #D27487;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 35px;
     font-weight: bold;
+    justify-content: center;
 }
 
 .social {
-    margin-right: 36px;
+    display: flex;
+    flex-basis: 33%;
+    justify-content: right;
+    margin-right: 55px;
 }
 
 .photo {

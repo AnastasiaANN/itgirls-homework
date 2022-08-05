@@ -19,9 +19,7 @@ main {
     background-color: beige;
 }
 
-.box1,
-.box2,
-.box3 {
+.box{
     background-color: rgb(235, 216, 51);
 }
 
@@ -38,7 +36,7 @@ main {
 
 }
 
-.box1 {
+.box {
     display: flex;
     flex-basis: 50%;
     align-items: center;
@@ -47,20 +45,8 @@ main {
 
 }
 
-.box2 {
-    display: flex;
+.box-half-size {
     flex-basis: 50%;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-
-}
-
-.box3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
 }
 
 .conteiner {

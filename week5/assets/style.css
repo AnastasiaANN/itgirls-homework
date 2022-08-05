@@ -19,10 +19,6 @@ main {
     background-color: beige;
 }
 
-.box{
-    background-color: rgb(235, 216, 51);
-}
-
 .title {
     display: flex;
     justify-content: center;
@@ -42,7 +38,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 50px;
-
+    background-color: rgb(235, 216, 51);
 }
 
 .box-half-size {

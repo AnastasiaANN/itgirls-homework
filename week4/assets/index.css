@@ -10,7 +10,7 @@
     display: flex;
     flex-basis: 33%;
     justify-content: left;
-    margin-left: 45px;
+    padding-left: 45px;
 }
 
 .menu {
@@ -41,7 +41,7 @@
     display: flex;
     flex-basis: 33%;
     justify-content: right;
-    margin-right: 55px;
+    padding-right: 55px;
 }
 
 .photo {

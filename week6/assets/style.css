@@ -1,21 +1,23 @@
-
-header{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    background-color: rgba(169, 169, 169, 0.356);
-} 
-
 .container{
     display: grid;
-    grid-template-columns: 1000px 550px;
-    grid-template-rows: 300px 300px;
+    grid-template-columns: 829px 400px;
+    grid-template-rows: 60px 300px;
     height: 300px;
 }
 
+
+header{
+    text-align: center;
+    height: 60px;
+    background-color: rgba(169, 169, 169, 0.356);
+    grid-column: 1/3;
+} 
+
+
+
 main{
     background-color: antiquewhite;
+    grid-row: 2;
 }
 
 .title {
@@ -24,6 +26,7 @@ main{
     margin: 10px;
 
 }
+
 
 .gridcontainer{ 
     display: grid;
@@ -35,26 +38,21 @@ main{
 }
 .cell {
     background-color: rgba(239, 193, 137, 0.512);
-    align-items: center;
-    justify-content: center;
-    height: 50px;
+    font-size: 1vw;
+}
+.cell3{
+    grid-column: 1/3;
 }
 
-#cell3{
-    position: relative;
-    background-color: rgba(239, 193, 137, 0.512);
-    width: 950px;
-    height: 50px;
-    margin: 20px;
-    left: 0.5%;
-    text-align: center;
-}
+
 
 aside{
     display: grid;
     background-color: rgba(127, 193, 172, 0.644);
     justify-content: center;
 }
+
+
 
 .gridcontainer2{ 
     display: grid;
@@ -63,6 +61,7 @@ aside{
     height: 90px;
     justify-content: space-around;
     align-items: center;
+    grid-column: 1/3;
 }
 
 .gridp{

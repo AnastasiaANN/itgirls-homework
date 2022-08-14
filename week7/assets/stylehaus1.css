@@ -1,0 +1,328 @@
+header,main{
+    overflow-x: hidden;
+}
+
+#sale{
+    display: grid;
+    background-color: black;
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: lighter;
+    overflow-x: hidden;
+}
+.gridcontainer{
+    display: grid;
+    background-color: rgba(153, 107, 96, 1);
+    height: 550px;
+    grid-template-columns: 350px 200px 350px;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 30px;
+    background-image: url(./images/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: 667px 740px;
+    overflow-x: hidden;
+}
+
+
+.menu{
+    text-decoration: none;
+    padding: 20px;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+.menu:hover {
+    text-decoration: underline;
+}
+
+
+#title{
+    color: azure;
+    font-size: 3vw;
+    height: 10px;
+    font-weight: lighter;
+}
+
+
+.container{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+h1{
+    font-family: 'Liberation Serif';
+    color: azure;
+    font-size: 3vw;
+    font-weight: lighter;
+}
+p{
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+.button{ 
+    position: relative;
+    background-color: rgba(153, 107, 96, 1);
+    width: 150px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    font-size: 1vw;
+    margin: 30px;
+    right: 30px;
+}
+
+
+.gridcontainer2{
+    display: grid;
+    grid-template-columns: 33% 33% 1fr;
+    grid-template-rows: 75px 200px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.text{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1vw;
+}
+.fontfam{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.8em;
+}
+.fontfam1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+}
+.fontfam2{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2.5vw;
+    align-self: center;
+}
+.fontfam3{
+    font-size: 3vw;
+    font-family: 'Uchen', serif;
+}
+
+
+
+hr{
+    width: 1400px;
+    overflow-x: hidden;
+}
+#title2{
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 90px;
+    overflow-x: hidden;
+}
+#text2{
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+
+.gridcontainer3{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 1fr 50px 80px;
+    margin-top: 65px;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+img{
+    width: 250px;
+}
+h2{
+    font-family: 'Liberation Serif';
+    text-align: center;
+    font-size: 2vw;
+}
+.text3{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+}
+.submit{
+    background-color: black;
+    color: #FFFFFF;
+    left: 17px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 1200px){
+    header{
+        max-width: 320px;
+    }
+    main{
+        max-width: 320px;
+    }
+    #sale{
+        max-height: 10px;
+        font-size: 1vw;
+    }
+    .gridcontainer{
+        max-height: 150px;
+        grid-template-columns: 50px 1px 50px;
+        grid-template-rows: 10px 20px 20px;
+        background-size: 50%;
+        padding: 10px;
+    }
+    .container{
+        max-width: 100px;
+        margin-top: 20px;
+    }
+    .button{
+        max-width: 40px;
+        max-height: 10px;
+        margin-top: 5px;
+    }
+    .gridcontainer2{
+        grid-template-rows: 30px 50px;
+    }
+    .text{
+        margin-top: 20px;
+    }
+    .fontfam{
+        font-size: 1.5vw;
+    } 
+    hr{
+        max-width: 250px;
+    } 
+    #title2{
+        font-size: 1.5em;
+        margin-top: 30px;
+    } 
+    #text2{
+        font-size: 2vw;
+    }
+    .gridcontainer3{
+        grid-template-columns: 35% 35% 35%;
+        grid-template-rows: 1fr 30px 30px;
+        margin-top: 40px;
+    }
+    img{
+        max-width: 100px;
+    }
+    .text3{
+        font-size: 1.5vw;
+    }
+    .submit{
+        left: 40px;
+        max-width: 30px;
+        max-height: 10px;
+        margin: 0px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1200px){
+    header{
+        max-width: 480px;
+    }
+    main{
+        max-width: 480px;
+    }
+    .gridcontainer{
+        max-height: 242px;
+        grid-template-columns: 200px 5px 200px;
+    }
+    .container{
+        margin-top: 60px;
+    }
+    .menu{
+        padding: 10px;
+    }
+    .gridcontainer3{
+        grid-template-columns: 20% 20% 20%;
+        grid-template-rows: 1fr 30px 50px;
+    }
+    .submit{
+        left: 34px;
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 1200px){
+    header{
+        max-width: 760px;
+    }
+    main{
+        max-width: 760px;
+    }
+    .gridcontainer{
+        max-height: 350px;
+    }
+    .container{
+        max-width: 300px;
+        margin-top: 100px;
+    }
+    .button{
+        max-width: 70px;
+        max-height: 20px;
+    }
+    .gridcontainer2{
+        grid-template-rows: 40px 140px ;
+    }
+    .text{
+        margin-top: 60px;
+    }
+    hr{
+        max-width: 500px;
+    }
+    #title2{
+        font-size: 4.5vw;
+        margin-top: 50px;
+    }
+    .gridcontainer3{
+        grid-template-columns: 20% 20% 20%;
+        grid-template-rows: 1fr 50px 100px;
+    }
+    img{
+        max-width: 160px;
+    }
+    .submit{
+        left: 44px;
+        max-width: 70px;
+        max-height: 25px;
+    }
+}
+@media screen and (min-width: 960px) and (max-width: 1200px){
+    header{
+        max-width: 960px;
+    }
+    main{
+        max-width: 960px;
+    }
+    .gridcontainer{
+        grid-template-columns: 300px 20px 300px;
+        max-height: 450px;
+    }
+    .container{
+        margin-top: 150px;
+    }
+    .button{
+        max-width: 90px;
+        max-height: 30px;
+    }
+    .gridcontainer2{
+        grid-template-rows: 55px 150px;
+    }
+    hr{
+        max-width: 650px;
+    }
+    .gridcontainer3{
+        grid-template-columns: 17% 17% 17%;
+        grid-template-rows: 1fr 50px 100px;
+    }
+}

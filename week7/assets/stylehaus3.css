@@ -1,0 +1,148 @@
+#sale{
+    display: grid;
+    background-color: black;
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: lighter;
+}
+.gridcontainer{
+    display: grid;
+    background-color: rgba(153, 107, 96, 1);
+    grid-template-columns: 30% 1fr 30%;
+    grid-template-rows: 5% 1fr 30%;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px;
+    background-image: url(./images/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.menu{
+    text-decoration: none;
+    padding: 10px;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+.menu:hover {
+    text-decoration: underline;
+}
+
+
+#title{
+    color: azure;
+    font-size: 3vw;
+    height: 10px;
+    font-weight: lighter;
+}
+
+
+.container{
+    grid-column: 2/4;
+    padding: 130px;
+    max-width: 40%;
+
+}
+h1{
+    font-family: 'Liberation Serif';
+    color: azure;
+    font-size: 3vw;
+    font-weight: lighter;
+}
+p{
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+.button{ 
+    position: relative;
+    background-color: rgba(153, 107, 96, 1);
+    width: 20%;
+    height: 10%;
+    border: 1px solid #FFFFFF;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    font-size: 0.5em;
+    right: 30px;
+}
+
+
+.gridcontainer2{
+    display: grid;
+    grid-template-columns: 33% 33% 1fr;
+    grid-template-rows: 30% 65%;
+}
+.text{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1vw;
+}
+.fontfam{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.8em;
+}
+.fontfam1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+}
+.fontfam2{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2.5vw;
+    align-self: center;
+}
+.fontfam3{
+    font-size: 3vw;
+    font-family: 'Uchen', serif;
+}
+
+
+
+hr{
+    width: 80%;
+}
+#title2{
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 90px;
+}
+#text2{
+    color: black;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.gridcontainer3{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 55% 10% 10% ;
+    margin-top: 65px;
+    justify-content: space-evenly;
+}
+img{
+    width: 100%;
+}
+h2{
+    font-family: 'Liberation Serif';
+    text-align: center;
+    font-size: 2vw;
+}
+.text3{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+}
+.submit{
+    background-color: black;
+    color: #FFFFFF;
+    left: 17%;
+    height: 20%;
+}

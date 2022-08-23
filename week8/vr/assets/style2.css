@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Intro';
+    src: url(./font/IntroDemo-BlackCAPS.otf);
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.container__icon{
+    width: 30px;
+    height: 30px;
+}
+.container__caption{
+    font-size: 1.2vw;
+    font-family: 'Intro';
+    padding-left: 5px;
+}
+.btn-cart{
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #5222D0;
+    border-color: #5222D0;
+    color: aliceblue;
+    font-size: 0.7vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 60px;
+    font-family: 'Intro';
+}
+.btn__pic{
+    width: 9px;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.container-main{
+    margin-left: 100px;
+}
+.container-main__title{
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: 'Intro';
+    height: 170px;
+}
+.container-main__text{
+    font-family: 'Roboto Slab', serif;
+}
+.container-main__btn-buy{
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 1.5vw;
+}
+.container-main__btn-pic{
+    width: 23px;
+    margin-top: 5px;
+}
+.picture{
+    width: 500px;
+}
+
+
+
+.link{
+    margin-left: 85px;
+}
+.link__all{
+    text-decoration: none;
+    color: #5222D0;
+    font-family: 'Roboto Slab', serif;
+    padding: 15px;
+}
+

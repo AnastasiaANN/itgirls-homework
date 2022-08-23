@@ -1,0 +1,46 @@
+.navi {
+    background-color: black;
+    color: azure;
+}
+
+.navi2 {
+    display: flex;
+    height: 70px;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 1vw;
+}
+
+.containermenu {
+    color: azure;
+}
+
+.box-half-size {
+    width: 900px;
+}
+
+.container {
+    height: 300px;
+}
+
+div.card-group {
+    margin-left: 12.9%;
+    width: 71.8%;
+    gap: 3%;
+}
+
+h5,
+p {
+    text-align: center;
+}
+
+p {
+    font-size: 1vw;
+}
+
+.abut {
+    height: 35px;
+    margin-left: 23px;
+    font-size: 1vw;
+}
